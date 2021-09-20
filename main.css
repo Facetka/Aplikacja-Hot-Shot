@@ -1,0 +1,124 @@
+* {
+  font-family: 'Segoe UI', sans-serif; }
+
+.product-section p {
+  color: #4d4d4d;
+  margin: 0;
+  background-color: #FFF; }
+.product-section .product-hot-shot {
+  height: 740px;
+  width: 450px;
+  border: 3px solid #898989;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 5px 1px #dbdbdb;
+          box-shadow: 1px 1px 5px 1px #dbdbdb;
+  margin: 100px auto;
+  padding: 20px 20px 20px 20px;
+  position: relative; }
+  .product-section .product-hot-shot .add-to-fav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: #4d4d4d;
+    border-radius: 10px; }
+    .product-section .product-hot-shot .add-to-fav .heart {
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .product-section .product-hot-shot .add-to-fav .heart:not(.active) {
+        display: none; }
+  .product-section .product-hot-shot .title {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .product-section .product-hot-shot .product-foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    padding: 30px 0px 30px 0px; }
+  .product-section .product-hot-shot .prices {
+    text-align: center; }
+    .product-section .product-hot-shot .prices .regular-price {
+      text-decoration: line-through;
+      color: #898989; }
+    .product-section .product-hot-shot .prices .new-price {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 80%; }
+  .product-section .product-hot-shot .availability {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 10px 60px 10px 60px; }
+    .product-section .product-hot-shot .availability .progress-bar {
+      width: 100%;
+      border-radius: 10px;
+      -webkit-box-flex: 3;
+          -ms-flex-positive: 3;
+              flex-grow: 3;
+      overflow: hidden; }
+      .product-section .product-hot-shot .availability .progress-bar::-webkit-progress-bar {
+        background: #dbdbdb; }
+      .product-section .product-hot-shot .availability .progress-bar::-webkit-progress-value {
+        background: #898989;
+        border-radius: 10px; }
+    .product-section .product-hot-shot .availability .sold-items {
+      color: #898989; }
+    .product-section .product-hot-shot .availability .on-stock {
+      font-weight: 500; }
+  .product-section .product-hot-shot .timer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin: 15px; }
+    .product-section .product-hot-shot .timer .timer-box {
+      width: 70px;
+      height: 70px;
+      border-radius: 15px;
+      background-color: #dbdbdb;
+      display: inline-block;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 70px;
+      color: #4d4d4d; }
+    .product-section .product-hot-shot .timer p {
+      color: #898989; }
+    .product-section .product-hot-shot .timer .colon {
+      margin: 22px 10px 0px 10px; }
+  .product-section .product-hot-shot .add-to-cart {
+    height: 50px;
+    width: 120px;
+    position: relative;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid #898989;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: block;
+    margin: 30px auto; }
+    .product-section .product-hot-shot .add-to-cart img {
+      height: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
